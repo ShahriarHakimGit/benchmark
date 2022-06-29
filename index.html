@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -12,14 +13,12 @@
     <ul>
       <li><a href="desktopcpu.html">Desktop CPU</a></li>
       <li><a href="news.asp">Laptop CPU</a></li>
-      <li><a href="contact.asp">Smartphone CPU</a></li>
       <li><a href="graphics.asp">GPU</a></li>
-      <li><a href="graphics.asp">Video Editing</a></li>
-      <li><a href="graphics.asp">Gaming FPS</a></li>
+      <li id="news"><a>News</a></li>
       <li style="float: right"><a class="active" href="#about">About</a></li>
     </ul>
 
-    <div class="w3-content w3-section" style="max-width: 500px">
+    <div class="w3-content w3-section" style="max-width: 800px">
       <p>
         The w3-animate-fading class animates an element in and out (takes about
         10 seconds).
@@ -52,8 +51,21 @@
         <p class="text1">
           All the benchmarks in one place. From Desktop CPU, Smartphone
           processors, Laptop CPU, GPU and More...
+          <br />Scroll down to see tech news
         </p>
       </h1>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="slider">
+        <div class="slide"><img src="intelNew.jpeg" alt="Photo 1" /></div>
+        <div class="slide"><img src="M2News.png" alt="Photo 2" /></div>
+        <div class="slide"><img src="rNews.png" alt="Photo 2" /></div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
     </section>
 
     <script src="script.js"></script>
